@@ -390,7 +390,6 @@ AC_CHECK_FUNCS([ \
   umask \
   unsetenv \
   usleep \
-  vasprintf \
   getservbyname \
 ])
 AM_CONDITIONAL(STRLCPY_IMPL, [test x"$ac_cv_func_strlcpy" = xno])
